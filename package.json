@@ -1,7 +1,7 @@
 {
   "name": "chat-app",
   "version": "0.1.0",
-  "homepage": "https://nameaccount.github.io/namerepository",
+  "homepage": "https://MariaRosolovska.github.io/Chat_App/",
   "private": true,
   "dependencies": {
     "@auth0/auth0-react": "^1.10.0",

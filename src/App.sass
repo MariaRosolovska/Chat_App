@@ -8,71 +8,49 @@ body
 	font-weight: 400 
 	background: linear-gradient(#e66465, #9198e5) 
 .wrapper 
-	position: relative 
-	left: 50% 
-	width: 1000px 
-	height: 800px 
-	transform: translate(-50%, 0) 
+	max-width: 1024px 
+	width: 100% 
+	height: auto 
+	margin: 0 auto 
 .container 
 	position: relative 
-	top: 50% 
-	left: 50% 
+	display: flex 
+	align-items: center 
 	width: 100% 
-	height: 75% 
-	background-color: #fff 
-	transform: translate(-50%, -50%) 
+	height: 100vh 
+	padding: 40px 20px 
+	background-color: transparent 
 	.section_left 
-		float: left 
-		width: 350px 
+		width: 40% 
 		height: 100% 
 		border: 1px solid #e6e6e6 
 		background-color: #fff 
 		.section_left__top 
-			position: relative 
-			width: 100% 
-			height: 96px 
-			padding: 29px 
-			&:after 
-				position: absolute 
-				bottom: 0 
-				left: 50% 
-				display: block 
-				width: 80% 
-				height: 1px 
-				content: '' 
-				background-color: #e6e6e6 
-				transform: translate(-50%, 0) 
+			display: flex 
+			justify-content: space-around 
+			align-items: center 
+			padding: 20px 
+			.section_left__top-symbol 
+				padding: 5px 
+				border: none 
+				background: #9198e5 
+				border-radius: 50% 
+				color: #fff 
+				display: flex 
+				align-items: center 
+				justify-content: center 
+				width: 20% 
+				height: 45px 
 		input 
-			float: left 
-			width: 288px 
-			height: 42px 
-			padding: 0 15px 
-			border: 1px solid #e6e6e6 
-			background-color: #eceff1 
-			border-radius: 21px 
-			font-family: 'Source Sans Pro', sans-serif 
-			font-weight: 400 
 			&:focus 
 				outline: none 
-		a 
-			&.search 
-				display: block 
-				float: left 
-				width: 42px 
-				height: 42px 
-				margin-left: 10px 
-				border: 1px solid #e6e6e6 
-				background-color: #00b0ff 
-				background-repeat: no-repeat 
-				background-position: top 12px left 14px 
-				border-radius: 50% 
 		.section_left__people 
 			margin-left: -1px 
 			border-right: 1px solid #e6e6e6 
 			border-left: 1px solid #e6e6e6 
 			width: 100% 
 			height: 80% 
-			overflow: auto 
+			overflow-y: scroll 
 			li 
 				list-style: none 
 			.section_left__people-person 
@@ -81,16 +59,13 @@ body
 				padding: 5px 5px 16px 
 				cursor: pointer 
 				background-color: #fff 
-				&:after 
-					position: absolute 
-					bottom: 0 
-					left: 50% 
+				.flag 
 					display: block 
-					width: 80% 
-					height: 1px 
-					content: '' 
-					background-color: #e6e6e6 
-					transform: translate(-50%, 0) 
+					width: 10px 
+					height: 10px 
+					margin-left: auto 
+					border-radius: 50% 
+					background-color: #00b0ff 
 				img 
 					float: left 
 					width: 40px 
@@ -105,10 +80,10 @@ body
 					font-family: 'Source Sans Pro', sans-serif 
 					font-weight: 600 
 				.time 
-					font-size: 14px 
+					font-size: 10px 
 					position: absolute 
-					top: 16px 
-					right: 10% 
+					top: 10px 
+					right: 5px 
 					padding: 0 0 5px 5px 
 					color: #999 
 					background-color: #fff 
@@ -120,14 +95,22 @@ body
 					white-space: nowrap 
 					text-overflow: ellipsis 
 					color: #999 
+	.section_left__top 
+		input 
+			width: 70% 
+			height: 45px 
+			padding: 0 15px 
+			border: 1px solid #e6e6e6 
+			background-color: #eceff1 
+			border-radius: 21px 
+			font-family: 'Source Sans Pro', sans-serif 
+			font-weight: 400 
 	.section_right 
-		position: relative 
-		float: left 
 		width: 60% 
 		height: 100% 
 		.section_right__top 
 			width: 100% 
-			height: 47px 
+			height: 10% 
 			padding: 15px 29px 
 			background-color: #eceff1 
 			span 
@@ -139,124 +122,124 @@ body
 					font-weight: 600 
 		.section_right__chat 
 			position: relative 
-			overflow: hidden 
+			background-image: url(./img/back.jpg) 
+			background-repeat: no-repeat 
+			background-position: center 
 			padding: 0 35px 92px 
 			border-width: 1px 1px 1px 0 
 			border-style: solid 
 			border-color: #e6e6e6 
-			height: 80% 
+			height: 75% 
 			justify-content: flex-end 
 			flex-direction: column 
-		.conversation-start 
-			position: relative 
-			width: 100% 
-			margin-bottom: 27px 
-			text-align: center 
-			span 
-				font-size: 14px 
-				display: inline-block 
-				color: #999 
-				&:before 
-					left: 0 
-				&:after 
-					right: 0 
-		.message
+			overflow: auto 
+			.section_right__chat-header 
+				font-size: 30px 
+				line-height: 18px 
+				font-weight: 700 
+				text-shadow: 1px 1px 2px white 
+				color: #9198e5 
+				text-align: center 
+				margin-top: 200px 
+				animation-name: anim 
+				animation-delay: 0.5s 
+				animation-duration: 2s 
+				animation-iteration-count: infinite 
+				animation-direction: alternate 
+		.message 
+			display: block 
+			margin-bottom: 10px 
 			font-size: 16px 
-			position: relative 
-			display: inline-block 
+			width: fit-content 
 			margin-bottom: 8px 
 			padding: 13px 14px 
 			border-radius: 5px 
-			&:before 
-				position: absolute 
-				top: 19px 
-				display: block 
-				width: 8px 
-				height: 6px 
-				content: '\00a0' 
 			&.you 
-				float: left 
+				margin-right: auto 
 				color: #fff 
 				background-color: #00b0ff 
 				align-self: flex-start 
-				&:before 
-					left: -3px 
-					background-color: #00b0ff 
 			&.me 
-				float: right 
+				margin-left: auto 
 				color: #1a1a1a 
 				background-color: #eceff1 
 				align-self: flex-end 
-				&:before 
-					right: -3px 
-					background-color: #eceff1 
 		.section_right__write 
-			position: absolute 
-			bottom: 29px 
-			left: 30px 
-			height: 42px 
-			padding-left: 8px 
+			height: 15% 
+			padding: 15px 
 			border: 1px solid #e6e6e6 
-			background-color: #eceff1 
-			width: 80% 
-			border-radius: 5px 
-			input 
+			background-color: #ccc 
+			width: 100% 
+			form 
+				width: 100% 
+				height: 100% 
+				position: relative 
+			.section_right__write-text 
 				font-size: 16px 
-				float: left 
-				width: 347px 
-				height: 40px 
-				padding: 0 10px 
+				width: 100% 
+				height: -webkit-fill-available 
+				padding: 10px 
 				color: #1a1a1a 
 				border: 0 
+				border-radius: 5px 
+				overflow: hidden 
 				outline: none 
 				background-color: #eceff1 
 				font-family: 'Source Sans Pro', sans-serif 
 				font-weight: 400 
 			.section_right__write-link 
-				&.attach 
-					&:before 
-						display: inline-block 
-						width: 20px 
-						height: 42px 
-						content: '' 
-						background-repeat: no-repeat 
-						background-position: center 
-				&.smiley 
-					&:before 
-						display: inline-block 
-						width: 20px 
-						height: 42px 
-						content: '' 
-						background-repeat: no-repeat 
-						background-position: center 
-				&.send 
-					&:before 
-						display: inline-block 
-						width: 20px 
-						height: 42px 
-						margin-left: 11px 
-						content: '' 
-						background-image: url('./img/send.png')
-						background-repeat: no-repeat 
-						background-position: center 
+				display: flex 
+				align-items: center 
+				justify-content: center 
+				width: 45px 
+				height: 45px 
+				padding: 5px 
+				border-radius: 50% 
+				overflow: hidden 
+				outline: none 
+				border: none 
+				content: '' 
+				background-image: url('./img/send.png') 
+				background-repeat: no-repeat 
+				background-position: center 
+				background-color: transparent 
+				cursor: pointer 
+				position: absolute 
+				top: 50% 
+				right: 3% 
+				transform: translateY(-50%) 
+.login-btn 
+	display: flex 
+	align-items: center 
+	justify-content: center 
+	background-color: #ECB84C 
+	color: #fff 
+	padding: 5px 
+	margin: 0 auto 
+	width: 20% 
+	height: 45px 
+	font-size: 20px 
+	border: none 
+	transition: all 0.3s 
+	&:hover 
+		background-color: #fff 
+		color: #ECB84C 
+		box-shadow: 5px 5px 15px #ECB84C 
 .container .section_left .section_left__people .section_left__people-person.active, .container .section_left .section_left__people .section_left__people-person:hover 
-	margin-top: -1px 
-	margin-left: -1px 
-	padding-top: 13px 
 	border: 0 
 	background-color: #00b0ff 
 	width: 100% 
-	padding-left: calc(10% + 1px) 
 .container .section_left .section_left__people .section_left__people-person.active span, .container .section_left .section_left__people .section_left__people-person:hover span 
 	color: #fff 
 	background: transparent 
-.container .section_left .section_left__people .section_left__people-person.active:after, .container .section_left .section_left__people .section_left__people-person:hover:after 
-	display: none 
-.container .section_right .conversation-start span:before, .container .section_right .conversation-start span:after 
-	position: absolute 
-	top: 10px 
-	display: inline-block 
-	width: 30% 
-	height: 1px 
-	content: '' 
-	background-color: #e6e6e6 
+@keyframes 
+	anim 
+		0%
+    transform: scale(0.7) 
+100% 
+	transform: scale(1) 
+ 
+	.container 
+		.section_right 
+			.conversation-start 
+				font-size: 10px 

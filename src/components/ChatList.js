@@ -21,11 +21,6 @@ const ChatList = (props) => {
     return (
         <div className="section_left">
 
-            {/* <div className="section_left__menu-btn">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div> */}
 
             <div className="section_left__top">
                 <input

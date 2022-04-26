@@ -99,7 +99,7 @@ const WriteText = (props) => {
 
                         userAnswer(personActive.username)
 
-                    }, 6000);
+                    }, 4000);
                 } else {
 
                     updateUsers.push(user);

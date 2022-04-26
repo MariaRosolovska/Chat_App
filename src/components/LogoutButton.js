@@ -6,7 +6,7 @@ const LogoutButton = () => {
 
     return (
         
-        <button className="section_left__top-symbol" onClick={() => logout({ returnTo: window.location.origin })}>
+        <button className="section_left__top-symbol" onClick={() => logout({ returnTo: window.location.href })}>
             Log Out
         </button>
     

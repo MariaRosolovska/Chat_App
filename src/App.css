@@ -25,6 +25,25 @@ body {
   padding: 40px 20px;
   background-color: transparent;
 }
+.login-btn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ECB84C;
+  color:#fff;
+  padding: 5px;
+  margin: 0 auto;
+  width: 20%;
+  height: 45px;
+  font-size: 20px;
+  border: none;
+  transition: all 0.3s;
+}
+.login-btn:hover{
+  background-color: #fff;
+  color: #ECB84C;
+  box-shadow: 5px 5px 15px #ECB84C;
+}
 
 /* SECTION LEFT */
 .container .section_left {
@@ -33,9 +52,7 @@ body {
   border: 1px solid #e6e6e6;
   background-color: #fff;
 }
-/* .container .section_left__menu-btn{
-  display: none;
-} */
+
 .container .section_left .section_left__top{
   display: flex;
   justify-content: space-around;
@@ -59,7 +76,7 @@ body {
 .container .section_left .section_left__top .section_left__top-symbol{
   padding: 5px;
   border: none;
-  background: blue;
+  background: #9198e5;
   border-radius: 50%;
   color:#fff;
   display: flex;
@@ -88,22 +105,13 @@ body {
   background-color: #fff;
 }
 .container .section_left .section_left__people .section_left__people-person .flag{
+  display: block;
   width: 10px;
   height: 10px;
+  margin-left: auto;
+  border-radius: 50%;
   background-color: #00b0ff;
-  display: block;
 }
-/* .container .section_left .section_left__people .section_left__people-person:after {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  display: block;
-  width: 80%;
-  height: 1px;
-  content: '';
-  background-color: #e6e6e6;
-  transform: translate(-50%, 0);
-} */
 .container .section_left .section_left__people .section_left__people-person img {
   float: left;
   width: 40px;
@@ -138,20 +146,13 @@ body {
   color: #999;
 }
 .container .section_left .section_left__people .section_left__people-person.active, .container .section_left .section_left__people .section_left__people-person:hover {
-  margin-top: -1px;
-  margin-left: -1px;
-  padding-top: 13px;
   border: 0;
   background-color: #00b0ff;
   width: 100%;
-  padding-left: calc(10% + 1px);
 }
 .container .section_left .section_left__people .section_left__people-person.active span, .container .section_left .section_left__people .section_left__people-person:hover span {
   color: #fff;
   background: transparent;
-}
-.container .section_left .section_left__people .section_left__people-person.active:after, .container .section_left .section_left__people .section_left__people-person:hover:after {
-  display: none;
 }
   
 
@@ -218,23 +219,7 @@ body {
   
 }
 .container .section_right .conversation-start {
-  position: relative;
-  width: 100%;
-  margin-bottom: 27px;
-  text-align: center;
-}
-.container .section_right .conversation-start span {
-  font-size: 14px;
-  display: inline-block;
-  color: #999;
-}
-.container .section_right .conversation-start span:before, .container .section_right .conversation-start span:after {
-
-  display: inline-block;
-  width: 30%;
-  height: 1px;
-  content: '';
-  background-color: #e6e6e6;
+  font-size: 10px;
 }
 .container .section_right .message {
   display: block;

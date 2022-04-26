@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 // import './App.sass';
 import './App.css';
-// import './media.css'
 import ChatList from './components/ChatList';
 import Chat from './components/Chat';
 import { useAuth0 } from '@auth0/auth0-react';
