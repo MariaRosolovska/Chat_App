@@ -1,0 +1,338 @@
+[
+    {
+      "username": "Kay-Uwe Gramlich",
+      "picture": "https://randomuser.me/api/portraits/thumb/men/14.jpg",
+      "unread": false,
+      "sortT": 0, 
+      "chathistory": [
+        {
+            "author": "user2",
+            "time": "16:20:57 26.04.2022",
+            "message": "Hello"
+        },
+        {
+            "author": "user1",
+            "time": "16:22:57 26.04.2022",
+            "message": "Hey"
+        },
+        {
+            "author": "user2",
+            "time": "16:24:57 26.04.2022",
+            "message": "How are you?"
+        },
+        {
+            "author": "user1",
+            "time": "16:26:57 26.04.2022",
+            "message": "Chuck Norris invented the Pygmies by pile driving a few Watusi."
+        }
+    ]
+    },
+    {
+      "username": "Emily Andersen",
+      "picture": "https://randomuser.me/api/portraits/thumb/women/52.jpg",
+      "unread": false,
+      "sortT": 0, 
+      "chathistory": [
+        {
+            "author": "user2",
+            "time": "16:20:57 26.04.2022",
+            "message": "Hello"
+        },
+        {
+            "author": "user1",
+            "time": "16:22:57 26.04.2022",
+            "message": "Hey"
+        },
+        {
+            "author": "user2",
+            "time": "16:24:57 26.04.2022",
+            "message": "How are you?"
+        },
+        {
+            "author": "user1",
+            "time": "16:26:57 26.04.2022",
+            "message": "Chuck Norris invented the Pygmies by pile driving a few Watusi."
+        }
+    ]
+    },
+    {
+      "username": "Johanne Nielsen",
+      "picture": "https://randomuser.me/api/portraits/thumb/women/22.jpg",
+      "unread": false,
+      "sortT": 0, 
+      "chathistory": [
+        {
+            "author": "user2",
+            "time": "16:20:57 26.04.2022",
+            "message": "Hello"
+        },
+        {
+            "author": "user1",
+            "time": "16:22:57 26.04.2022",
+            "message": "Hey"
+        },
+        {
+            "author": "user2",
+            "time": "16:24:57 26.04.2022",
+            "message": "How are you?"
+        },
+        {
+            "author": "user1",
+            "time": "16:26:57 26.04.2022",
+            "message": "Chuck Norris invented the Pygmies by pile driving a few Watusi."
+        }
+    ]
+    },
+    {
+      "username": "Antonia Voigt",
+      "picture": "https://randomuser.me/api/portraits/thumb/women/27.jpg",
+      "unread": false,
+      "sortT": 0, 
+      "chathistory": [
+        {
+            "author": "user2",
+            "time": "16:20:57 26.04.2022",
+            "message": "Hello"
+        },
+        {
+            "author": "user1",
+            "time": "16:22:57 26.04.2022",
+            "message": "Hey"
+        },
+        {
+            "author": "user2",
+            "time": "16:24:57 26.04.2022",
+            "message": "How are you?"
+        },
+        {
+            "author": "user1",
+            "time": "16:26:57 26.04.2022",
+            "message": "Chuck Norris invented the Pygmies by pile driving a few Watusi."
+        }
+    ]
+    },
+    {
+      "username": "آرمیتا محمدخان",
+      "picture": "https://randomuser.me/api/portraits/thumb/women/14.jpg",
+      "unread": false,
+      "sortT": 0, 
+      "chathistory": [
+        {
+            "author": "user2",
+            "time": "16:20:57 26.04.2022",
+            "message": "Hello"
+        },
+        {
+            "author": "user1",
+            "time": "16:22:57 26.04.2022",
+            "message": "Hey"
+        },
+        {
+            "author": "user2",
+            "time": "16:24:57 26.04.2022",
+            "message": "How are you?"
+        },
+        {
+            "author": "user1",
+            "time": "16:26:57 26.04.2022",
+            "message": "Chuck Norris invented the Pygmies by pile driving a few Watusi."
+        }
+    ]
+    },
+    {
+      "username": "Lauren Stanley",
+      "picture": "https://randomuser.me/api/portraits/thumb/women/57.jpg",
+      "unread": false,
+      "sortT": 0, 
+      "chathistory": [
+        {
+            "author": "user2",
+            "time": "16:20:57 26.04.2022",
+            "message": "Hello"
+        },
+        {
+            "author": "user1",
+            "time": "16:22:57 26.04.2022",
+            "message": "Hey"
+        },
+        {
+            "author": "user2",
+            "time": "16:24:57 26.04.2022",
+            "message": "How are you?"
+        },
+        {
+            "author": "user1",
+            "time": "16:26:57 26.04.2022",
+            "message": "Chuck Norris invented the Pygmies by pile driving a few Watusi."
+        }
+    ]
+    },
+    {
+      "username": "Jim Davies",
+      "picture": "https://randomuser.me/api/portraits/thumb/men/50.jpg",
+      "unread": false,
+      "sortT": 0, 
+      "chathistory": [
+        {
+            "author": "user2",
+            "time": "16:20:57 26.04.2022",
+            "message": "Hello"
+        },
+        {
+            "author": "user1",
+            "time": "16:22:57 26.04.2022",
+            "message": "Hey"
+        },
+        {
+            "author": "user2",
+            "time": "16:24:57 26.04.2022",
+            "message": "How are you?"
+        },
+        {
+            "author": "user1",
+            "time": "16:26:57 26.04.2022",
+            "message": "Chuck Norris invented the Pygmies by pile driving a few Watusi."
+        }
+    ]
+    },
+    {
+      "username": "Samuel Niskanen",
+      "picture": "https://randomuser.me/api/portraits/thumb/men/61.jpg",
+      "unread": false,
+      "sortT": 0, 
+      "chathistory": [
+        {
+            "author": "user2",
+            "time": "16:20:57 26.04.2022",
+            "message": "Hello"
+        },
+        {
+            "author": "user1",
+            "time": "16:22:57 26.04.2022",
+            "message": "Hey"
+        },
+        {
+            "author": "user2",
+            "time": "16:24:57 26.04.2022",
+            "message": "How are you?"
+        },
+        {
+            "author": "user1",
+            "time": "16:26:57 26.04.2022",
+            "message": "Chuck Norris invented the Pygmies by pile driving a few Watusi."
+        }
+    ]
+    },
+    {
+      "username": "Miriam Gutierrez",
+      "picture": "https://randomuser.me/api/portraits/thumb/women/53.jpg",
+      "unread": false,
+      "sortT": 0, 
+      "chathistory": [
+        {
+            "author": "user2",
+            "time": "16:20:57 26.04.2022",
+            "message": "Hello"
+        },
+        {
+            "author": "user1",
+            "time": "16:22:57 26.04.2022",
+            "message": "Hey"
+        },
+        {
+            "author": "user2",
+            "time": "16:24:57 26.04.2022",
+            "message": "How are you?"
+        },
+        {
+            "author": "user1",
+            "time": "16:26:57 26.04.2022",
+            "message": "Chuck Norris invented the Pygmies by pile driving a few Watusi."
+        }
+    ]
+    },
+    {
+      "username": "Cristian Fuentes",
+      "picture": "https://randomuser.me/api/portraits/thumb/men/60.jpg",
+      "unread": false,
+      "sortT": 0, 
+      "chathistory": [
+        {
+            "author": "user2",
+            "time": "16:20:57 26.04.2022",
+            "message": "Hello"
+        },
+        {
+            "author": "user1",
+            "time": "16:22:57 26.04.2022",
+            "message": "Hey"
+        },
+        {
+            "author": "user2",
+            "time": "16:24:57 26.04.2022",
+            "message": "How are you?"
+        },
+        {
+            "author": "user1",
+            "time": "16:26:57 26.04.2022",
+            "message": "Chuck Norris invented the Pygmies by pile driving a few Watusi."
+        }
+    ]
+    },
+    {
+      "username": "Alarico Vieira",
+      "picture": "https://randomuser.me/api/portraits/thumb/men/3.jpg",
+      "unread": false,
+      "sortT": 0, 
+      "chathistory": [
+        {
+            "author": "user2",
+            "time": "16:20:57 26.04.2022",
+            "message": "Hello"
+        },
+        {
+            "author": "user1",
+            "time": "16:22:57 26.04.2022",
+            "message": "Hey"
+        },
+        {
+            "author": "user2",
+            "time": "16:24:57 26.04.2022",
+            "message": "How are you?"
+        },
+        {
+            "author": "user1",
+            "time": "16:26:57 26.04.2022",
+            "message": "Chuck Norris invented the Pygmies by pile driving a few Watusi."
+        }
+    ]
+    },
+    {
+      "username": "Steffen Charles",
+      "picture": "https://randomuser.me/api/portraits/thumb/men/50.jpg",
+      "unread": false,
+      "sortT": 0, 
+      "chathistory": [
+        {
+            "author": "user2",
+            "time": "16:20:57 26.04.2022",
+            "message": "Hello"
+        },
+        {
+            "author": "user1",
+            "time": "16:22:57 26.04.2022",
+            "message": "Hey"
+        },
+        {
+            "author": "user2",
+            "time": "16:24:57 26.04.2022",
+            "message": "How are you?"
+        },
+        {
+            "author": "user1",
+            "time": "16:26:57 26.04.2022",
+            "message": "Chuck Norris invented the Pygmies by pile driving a few Watusi."
+        }
+    ]
+    }
+  ]

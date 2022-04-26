@@ -1,0 +1,127 @@
+@media (max-width:1100px) {
+    .wrapper{
+        width: 900px;
+        height: 700px;
+    }
+    .container .section_left .section_left__people{
+        overflow: hidden;
+        height: 70%;
+    }
+    .container .section_right .section_right__write{
+        bottom: 13px;
+    }
+    .container .section_right .section_right__write .section_right__write-link{
+        margin-left: 10px;
+    }
+}
+
+@media (max-width:950px) {
+    .wrapper{
+        width: 850px;
+    }
+    .container .section_right {
+        width: 58%;
+    }
+    .container .section_right .section_right__write .section_right__write-link{
+        margin-left: -15px;
+    }
+}
+
+@media (max-width:850px) {
+    .wrapper{
+        width: 750px;
+    }
+    .container .section_right {
+        width: 52%;
+    }
+    .container .section_right .section_right__chat .section_right__chat-header{
+        line-height: 30px;
+    }
+    .container .section_right .section_right__write .section_right__write-text{
+        width: 300px;
+    }
+    .container .section_right .section_right__write .section_right__write-link{
+        margin-left: -50px;
+    }
+}
+
+@media (max-width:750px) {
+    .wrapper{
+        width: 650px;
+    }
+    .container .section_left {
+        width: 280px;
+    }
+    .container .section_left input{
+        width: 200px;
+    }
+    .container .section_left .section_left__top .section_left__top-symbol{
+        width: 32px;
+        height: 32px;
+        background-position: top 7px left 10px;
+        margin-left: 210px;
+        margin-top: 5px;
+    }
+    .container .section_right {
+        width: 56%;
+    }
+    .container .section_right .section_right__write .section_right__write-text{
+        width: 180px;
+    }
+    .container .section_right .section_right__write .section_right__write-link{
+        margin-left: 50px;
+    }
+}
+
+@media (max-width:500px) {
+    .wrapper{
+        width: 450px;
+    }
+    .container .section_left{
+        width: 100px;
+    }
+    /* .container .section_left__menu-btn{
+        display: block;
+        width: 40px;
+        cursor: pointer;
+        position: absolute;
+        left: 20px;
+        top: 10px;
+    }
+    .container .section_left__menu-btn span{
+        display: block;
+        margin-bottom: 10px;
+        background-color: #ECB84C;
+        height: 4px;
+    } */
+    .container .section_left__top, .section_left__people {
+        display: none;
+    }
+    .container .section_right {
+        width: 76%;
+    }
+    .container .section_right .section_right__chat{
+        overflow: hidden;
+    }
+    .container .section_right .section_right__write .section_right__write-text{
+        width: 180px;
+    }
+    .container .section_right .section_right__write .section_right__write-link{
+        margin-left: 30px;
+    }
+}
+
+@media (max-width:420px) {
+    .wrapper{
+        width: 300px;
+    }
+    .container .section_left {
+        display: none;
+    }
+    .container .section_right .section_right__chat .section_right__chat-header{
+        margin-top: 150px;
+    }
+    .container .section_right .section_right__write .section_right__write-link{
+        margin-left: 0;
+    }
+}
